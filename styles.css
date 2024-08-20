@@ -16,18 +16,19 @@ body {
 	height: 70vh;
 	background-size: cover;
 	background-position: center;
+	margin-bottom: 30px;
 }
 
 .featured_video .gradient {
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(rgba(0,0,0,0), #000);
+	background: linear-gradient(180deg, rgba(18,18,18,0.3) 20%, rgba(18,18,18,1) 80%);
 }
 
 .card {
-	transition: all 0.2s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
-	transform: scale(1.15);
+	transform: scale(1.05);
 }
